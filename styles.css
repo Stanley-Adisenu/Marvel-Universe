@@ -1,0 +1,53 @@
+* {
+    box-sizing: 0;
+}
+
+
+body {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    margin: 0;
+}
+
+.landing-bg {
+    align-items: center;
+    background: url('./Images/Marvel\ Background10.jpg');
+    background-position: center;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0);
+}
+
+.landing-Text {
+    display: none;
+    font-size: 50px;
+    color: wheat;
+}
+
+.GetStarted {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-left: 1000px;
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgba(250, 229, 229, 0.979);
+    text-decoration-color: rgba(146, 126, 126, 0.966);
+    transition: 1s;
+}
+
+.GetStarted:hover {
+    margin-left: 1000px;
+    text-decoration: underline;
+    font-size: 30px;
+    color: gold;
+    text-decoration-color: white;
+    transform: scale(1.03);
+
+}

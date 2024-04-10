@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+}
+
+.Home {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-left: 1100px;
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgba(250, 229, 229, 0.979);
+    text-decoration-color: rgba(146, 126, 126, 0.966);
+    transition: 1s ease-in;
+}
+
+.Home:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-left: 1000px;
+    text-decoration: underline;
+    font-size: 30px;
+    color: gold;
+    text-decoration-color: white;
+    transform: scale(1.03);
+}
+
+.NavLink {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: rgba(250, 229, 229, 0.979);
+    transition: 0.5s ease-in;
+}
+
+.NavLink:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 22px;
+    color: gold;
+    text-decoration-color: white;
+    transform: scale(1.03);
+}
+
+.Texts {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    color: rgb(184, 146, 184);
+}
+
+.Slide {
+    transform: translate(400%);
+    transition: transform 0.5s;
+}
+
+.Slide:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.Slide.show {
+    transform: translateX(0);
+}
+
+.counter {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    color: rgb(184, 146, 184);
+    font-size: 25px;
+}
+
+.icon {
+    font-size: 15px;
+}
+
+.content {
+    text-decoration: none;
+    transition: transform 0.3s;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content:hover {
+    transform: scale(1.07);
+    background-repeat: no-repeat;
+}
+
+#hide {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: monospace;
+    color: rgb(237, 224, 238);
+}
+
+.content:hover #hide {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-left: 1190px;
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    height: 65%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.Main-Body {
+    position: relative;
+    top: -100px;
+    /* width: 85%;
+    height: 2100px; */
+    margin: 0 auto;
+    /* border-radius: 30px; */
+    background-color: rgb(0, 0, 0);
+    z-index: 99;
+}
