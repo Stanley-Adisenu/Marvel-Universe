@@ -71,11 +71,18 @@ body {
 
 }
 
-    @media  only screen and (max-width: 414px) {  
+@media  only screen and (max-width: 414px) {  
         .landing-bg {
             background-position: -54.9rem;
            
         }
         
-        }
+}
+@media  only screen and (max-width: 360px) {  
+    .landing-bg {
+        background-position: -44.7rem;
+       
+    }
+    
+}
 
