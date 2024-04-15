@@ -1,55 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
 body {
+    font-family: "Tilt Neon", sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
 
-.Home {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    margin-left: 1100px;
-    text-decoration: underline;
-    font-size: 30px;
-    color: rgba(250, 229, 229, 0.979);
-    text-decoration-color: rgba(146, 126, 126, 0.966);
-    transition: 1s ease-in;
-}
 
-.Home:hover {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    margin-left: 1000px;
-    text-decoration: underline;
-    font-size: 30px;
-    color: gold;
-    text-decoration-color: white;
-    transform: scale(1.03);
-}
 
 .NavLink {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
     word-spacing: 4px;
-    margin-left: 40px;
-    font-size: 20px;
+    margin-left: 4rem;
+    font-size: 1.4rem;
     color: rgba(250, 229, 229, 0.979);
-    transition: 0.5s ease-in;
+    transition: 100ms ease-in-out;
 }
 
 .NavLink:hover {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    align-items: center;
     text-decoration: underline;
-    font-size: 22px;
     color: gold;
     text-decoration-color: white;
-    transform: scale(1.03);
+    transform: translateY(-0.2rem);
 }
 
 .Texts {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
     word-spacing: 4px;
     color: rgb(184, 146, 184);
@@ -69,7 +51,6 @@ body {
 }
 
 .counter {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 2px;
     color: rgb(184, 146, 184);
     font-size: 25px;
@@ -102,7 +83,6 @@ body {
 }
 
 .content:hover #hide {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
     word-spacing: 4px;
     margin-left: 1190px;
@@ -132,4 +112,26 @@ body {
     /* border-radius: 30px; */
     background-color: rgb(0, 0, 0);
     z-index: 99;
+}
+
+.swiper {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .slider-image{
+    overflow: hidden;
+  }
+
+  @media  only screen and (max-width: 920px) {  
+    .slider-text {
+        display: none;
+       
+    }
+    .slider-image{
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+      }
+    
 }
